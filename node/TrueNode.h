@@ -14,9 +14,4 @@ class TrueNode : public ValueNode {
 
 };
 
-std::string TrueNode::toString() {
-    return "<True>";
-}
-
-
 #endif //HIJSON_TRUENODE_H

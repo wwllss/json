@@ -20,10 +20,4 @@ public:
 
 };
 
-NumberNode::NumberNode(Token *token) : token(token) {}
-
-std::string NumberNode::toString() {
-    return "<Number: " + token->text + ">";
-}
-
 #endif //HIJSON_NUMBERNODE_H

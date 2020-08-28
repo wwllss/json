@@ -224,6 +224,249 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+node/ArrayNode.o: node/ArrayNode.cpp.o
+
+.PHONY : node/ArrayNode.o
+
+# target to build an object file
+node/ArrayNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o
+.PHONY : node/ArrayNode.cpp.o
+
+node/ArrayNode.i: node/ArrayNode.cpp.i
+
+.PHONY : node/ArrayNode.i
+
+# target to preprocess a source file
+node/ArrayNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ArrayNode.cpp.i
+.PHONY : node/ArrayNode.cpp.i
+
+node/ArrayNode.s: node/ArrayNode.cpp.s
+
+.PHONY : node/ArrayNode.s
+
+# target to generate assembly for a file
+node/ArrayNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ArrayNode.cpp.s
+.PHONY : node/ArrayNode.cpp.s
+
+node/FalseNode.o: node/FalseNode.cpp.o
+
+.PHONY : node/FalseNode.o
+
+# target to build an object file
+node/FalseNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/FalseNode.cpp.o
+.PHONY : node/FalseNode.cpp.o
+
+node/FalseNode.i: node/FalseNode.cpp.i
+
+.PHONY : node/FalseNode.i
+
+# target to preprocess a source file
+node/FalseNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/FalseNode.cpp.i
+.PHONY : node/FalseNode.cpp.i
+
+node/FalseNode.s: node/FalseNode.cpp.s
+
+.PHONY : node/FalseNode.s
+
+# target to generate assembly for a file
+node/FalseNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/FalseNode.cpp.s
+.PHONY : node/FalseNode.cpp.s
+
+node/NullNode.o: node/NullNode.cpp.o
+
+.PHONY : node/NullNode.o
+
+# target to build an object file
+node/NullNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/NullNode.cpp.o
+.PHONY : node/NullNode.cpp.o
+
+node/NullNode.i: node/NullNode.cpp.i
+
+.PHONY : node/NullNode.i
+
+# target to preprocess a source file
+node/NullNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/NullNode.cpp.i
+.PHONY : node/NullNode.cpp.i
+
+node/NullNode.s: node/NullNode.cpp.s
+
+.PHONY : node/NullNode.s
+
+# target to generate assembly for a file
+node/NullNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/NullNode.cpp.s
+.PHONY : node/NullNode.cpp.s
+
+node/NumberNode.o: node/NumberNode.cpp.o
+
+.PHONY : node/NumberNode.o
+
+# target to build an object file
+node/NumberNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/NumberNode.cpp.o
+.PHONY : node/NumberNode.cpp.o
+
+node/NumberNode.i: node/NumberNode.cpp.i
+
+.PHONY : node/NumberNode.i
+
+# target to preprocess a source file
+node/NumberNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/NumberNode.cpp.i
+.PHONY : node/NumberNode.cpp.i
+
+node/NumberNode.s: node/NumberNode.cpp.s
+
+.PHONY : node/NumberNode.s
+
+# target to generate assembly for a file
+node/NumberNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/NumberNode.cpp.s
+.PHONY : node/NumberNode.cpp.s
+
+node/ObjectNode.o: node/ObjectNode.cpp.o
+
+.PHONY : node/ObjectNode.o
+
+# target to build an object file
+node/ObjectNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o
+.PHONY : node/ObjectNode.cpp.o
+
+node/ObjectNode.i: node/ObjectNode.cpp.i
+
+.PHONY : node/ObjectNode.i
+
+# target to preprocess a source file
+node/ObjectNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ObjectNode.cpp.i
+.PHONY : node/ObjectNode.cpp.i
+
+node/ObjectNode.s: node/ObjectNode.cpp.s
+
+.PHONY : node/ObjectNode.s
+
+# target to generate assembly for a file
+node/ObjectNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ObjectNode.cpp.s
+.PHONY : node/ObjectNode.cpp.s
+
+node/PairNode.o: node/PairNode.cpp.o
+
+.PHONY : node/PairNode.o
+
+# target to build an object file
+node/PairNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/PairNode.cpp.o
+.PHONY : node/PairNode.cpp.o
+
+node/PairNode.i: node/PairNode.cpp.i
+
+.PHONY : node/PairNode.i
+
+# target to preprocess a source file
+node/PairNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/PairNode.cpp.i
+.PHONY : node/PairNode.cpp.i
+
+node/PairNode.s: node/PairNode.cpp.s
+
+.PHONY : node/PairNode.s
+
+# target to generate assembly for a file
+node/PairNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/PairNode.cpp.s
+.PHONY : node/PairNode.cpp.s
+
+node/StringNode.o: node/StringNode.cpp.o
+
+.PHONY : node/StringNode.o
+
+# target to build an object file
+node/StringNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/StringNode.cpp.o
+.PHONY : node/StringNode.cpp.o
+
+node/StringNode.i: node/StringNode.cpp.i
+
+.PHONY : node/StringNode.i
+
+# target to preprocess a source file
+node/StringNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/StringNode.cpp.i
+.PHONY : node/StringNode.cpp.i
+
+node/StringNode.s: node/StringNode.cpp.s
+
+.PHONY : node/StringNode.s
+
+# target to generate assembly for a file
+node/StringNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/StringNode.cpp.s
+.PHONY : node/StringNode.cpp.s
+
+node/TrueNode.o: node/TrueNode.cpp.o
+
+.PHONY : node/TrueNode.o
+
+# target to build an object file
+node/TrueNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/TrueNode.cpp.o
+.PHONY : node/TrueNode.cpp.o
+
+node/TrueNode.i: node/TrueNode.cpp.i
+
+.PHONY : node/TrueNode.i
+
+# target to preprocess a source file
+node/TrueNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/TrueNode.cpp.i
+.PHONY : node/TrueNode.cpp.i
+
+node/TrueNode.s: node/TrueNode.cpp.s
+
+.PHONY : node/TrueNode.s
+
+# target to generate assembly for a file
+node/TrueNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/TrueNode.cpp.s
+.PHONY : node/TrueNode.cpp.s
+
+node/ValueNode.o: node/ValueNode.cpp.o
+
+.PHONY : node/ValueNode.o
+
+# target to build an object file
+node/ValueNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ValueNode.cpp.o
+.PHONY : node/ValueNode.cpp.o
+
+node/ValueNode.i: node/ValueNode.cpp.i
+
+.PHONY : node/ValueNode.i
+
+# target to preprocess a source file
+node/ValueNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ValueNode.cpp.i
+.PHONY : node/ValueNode.cpp.i
+
+node/ValueNode.s: node/ValueNode.cpp.s
+
+.PHONY : node/ValueNode.s
+
+# target to generate assembly for a file
+node/ValueNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/node/ValueNode.cpp.s
+.PHONY : node/ValueNode.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +485,33 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... node/ArrayNode.o"
+	@echo "... node/ArrayNode.i"
+	@echo "... node/ArrayNode.s"
+	@echo "... node/FalseNode.o"
+	@echo "... node/FalseNode.i"
+	@echo "... node/FalseNode.s"
+	@echo "... node/NullNode.o"
+	@echo "... node/NullNode.i"
+	@echo "... node/NullNode.s"
+	@echo "... node/NumberNode.o"
+	@echo "... node/NumberNode.i"
+	@echo "... node/NumberNode.s"
+	@echo "... node/ObjectNode.o"
+	@echo "... node/ObjectNode.i"
+	@echo "... node/ObjectNode.s"
+	@echo "... node/PairNode.o"
+	@echo "... node/PairNode.i"
+	@echo "... node/PairNode.s"
+	@echo "... node/StringNode.o"
+	@echo "... node/StringNode.i"
+	@echo "... node/StringNode.s"
+	@echo "... node/TrueNode.o"
+	@echo "... node/TrueNode.i"
+	@echo "... node/TrueNode.s"
+	@echo "... node/ValueNode.o"
+	@echo "... node/ValueNode.i"
+	@echo "... node/ValueNode.s"
 .PHONY : help
 
 

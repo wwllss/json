@@ -36,3 +36,49 @@ CMakeFiles/HiJson.dir/main.cpp.o: ../node/StringNode.h
 CMakeFiles/HiJson.dir/main.cpp.o: ../node/TrueNode.h
 CMakeFiles/HiJson.dir/main.cpp.o: ../node/ValueNode.h
 
+CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o: ../node/ArrayNode.cpp
+CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o: ../node/ArrayNode.h
+CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o: ../node/ValueNode.h
+
+CMakeFiles/HiJson.dir/node/FalseNode.cpp.o: ../node/FalseNode.cpp
+CMakeFiles/HiJson.dir/node/FalseNode.cpp.o: ../node/FalseNode.h
+CMakeFiles/HiJson.dir/node/FalseNode.cpp.o: ../node/ValueNode.h
+
+CMakeFiles/HiJson.dir/node/NullNode.cpp.o: ../node/NullNode.cpp
+CMakeFiles/HiJson.dir/node/NullNode.cpp.o: ../node/NullNode.h
+CMakeFiles/HiJson.dir/node/NullNode.cpp.o: ../node/ValueNode.h
+
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.o: ../Token.h
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.o: ../TokenType.h
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.o: ../node/NumberNode.cpp
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.o: ../node/NumberNode.h
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.o: ../node/ValueNode.h
+
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: ../Token.h
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: ../TokenType.h
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: ../node/ObjectNode.cpp
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: ../node/ObjectNode.h
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: ../node/PairNode.h
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: ../node/StringNode.h
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: ../node/ValueNode.h
+
+CMakeFiles/HiJson.dir/node/PairNode.cpp.o: ../Token.h
+CMakeFiles/HiJson.dir/node/PairNode.cpp.o: ../TokenType.h
+CMakeFiles/HiJson.dir/node/PairNode.cpp.o: ../node/PairNode.cpp
+CMakeFiles/HiJson.dir/node/PairNode.cpp.o: ../node/PairNode.h
+CMakeFiles/HiJson.dir/node/PairNode.cpp.o: ../node/StringNode.h
+CMakeFiles/HiJson.dir/node/PairNode.cpp.o: ../node/ValueNode.h
+
+CMakeFiles/HiJson.dir/node/StringNode.cpp.o: ../Token.h
+CMakeFiles/HiJson.dir/node/StringNode.cpp.o: ../TokenType.h
+CMakeFiles/HiJson.dir/node/StringNode.cpp.o: ../node/StringNode.cpp
+CMakeFiles/HiJson.dir/node/StringNode.cpp.o: ../node/StringNode.h
+CMakeFiles/HiJson.dir/node/StringNode.cpp.o: ../node/ValueNode.h
+
+CMakeFiles/HiJson.dir/node/TrueNode.cpp.o: ../node/TrueNode.cpp
+CMakeFiles/HiJson.dir/node/TrueNode.cpp.o: ../node/TrueNode.h
+CMakeFiles/HiJson.dir/node/TrueNode.cpp.o: ../node/ValueNode.h
+
+CMakeFiles/HiJson.dir/node/ValueNode.cpp.o: ../node/ValueNode.cpp
+CMakeFiles/HiJson.dir/node/ValueNode.cpp.o: ../node/ValueNode.h
+

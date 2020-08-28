@@ -172,7 +172,10 @@ Token *Laxer::matchFalse() {
 
 Token *Laxer::matchNumber() {
     std::string str;
-    if (c == '-' || c == '0') {
+    if (c == '-') {
+        str += std::string(1, consume());
+    }
+    if (c == '0') {
         str += std::string(1, consume());
     } else {
         str += matchDigits();

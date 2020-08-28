@@ -116,11 +116,137 @@ CMakeFiles/HiJson.dir/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/Parser.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/Parser.cpp -o CMakeFiles/HiJson.dir/Parser.cpp.s
 
+CMakeFiles/HiJson.dir/node/ValueNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/ValueNode.cpp.o: ../node/ValueNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HiJson.dir/node/ValueNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/ValueNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/ValueNode.cpp
+
+CMakeFiles/HiJson.dir/node/ValueNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/ValueNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/ValueNode.cpp > CMakeFiles/HiJson.dir/node/ValueNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/ValueNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/ValueNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/ValueNode.cpp -o CMakeFiles/HiJson.dir/node/ValueNode.cpp.s
+
+CMakeFiles/HiJson.dir/node/TrueNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/TrueNode.cpp.o: ../node/TrueNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HiJson.dir/node/TrueNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/TrueNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/TrueNode.cpp
+
+CMakeFiles/HiJson.dir/node/TrueNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/TrueNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/TrueNode.cpp > CMakeFiles/HiJson.dir/node/TrueNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/TrueNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/TrueNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/TrueNode.cpp -o CMakeFiles/HiJson.dir/node/TrueNode.cpp.s
+
+CMakeFiles/HiJson.dir/node/StringNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/StringNode.cpp.o: ../node/StringNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HiJson.dir/node/StringNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/StringNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/StringNode.cpp
+
+CMakeFiles/HiJson.dir/node/StringNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/StringNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/StringNode.cpp > CMakeFiles/HiJson.dir/node/StringNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/StringNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/StringNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/StringNode.cpp -o CMakeFiles/HiJson.dir/node/StringNode.cpp.s
+
+CMakeFiles/HiJson.dir/node/PairNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/PairNode.cpp.o: ../node/PairNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/HiJson.dir/node/PairNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/PairNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/PairNode.cpp
+
+CMakeFiles/HiJson.dir/node/PairNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/PairNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/PairNode.cpp > CMakeFiles/HiJson.dir/node/PairNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/PairNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/PairNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/PairNode.cpp -o CMakeFiles/HiJson.dir/node/PairNode.cpp.s
+
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o: ../node/ObjectNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/ObjectNode.cpp
+
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/ObjectNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/ObjectNode.cpp > CMakeFiles/HiJson.dir/node/ObjectNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/ObjectNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/ObjectNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/ObjectNode.cpp -o CMakeFiles/HiJson.dir/node/ObjectNode.cpp.s
+
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.o: ../node/NumberNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/HiJson.dir/node/NumberNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/NumberNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/NumberNode.cpp
+
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/NumberNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/NumberNode.cpp > CMakeFiles/HiJson.dir/node/NumberNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/NumberNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/NumberNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/NumberNode.cpp -o CMakeFiles/HiJson.dir/node/NumberNode.cpp.s
+
+CMakeFiles/HiJson.dir/node/NullNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/NullNode.cpp.o: ../node/NullNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/HiJson.dir/node/NullNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/NullNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/NullNode.cpp
+
+CMakeFiles/HiJson.dir/node/NullNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/NullNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/NullNode.cpp > CMakeFiles/HiJson.dir/node/NullNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/NullNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/NullNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/NullNode.cpp -o CMakeFiles/HiJson.dir/node/NullNode.cpp.s
+
+CMakeFiles/HiJson.dir/node/FalseNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/FalseNode.cpp.o: ../node/FalseNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/HiJson.dir/node/FalseNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/FalseNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/FalseNode.cpp
+
+CMakeFiles/HiJson.dir/node/FalseNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/FalseNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/FalseNode.cpp > CMakeFiles/HiJson.dir/node/FalseNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/FalseNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/FalseNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/FalseNode.cpp -o CMakeFiles/HiJson.dir/node/FalseNode.cpp.s
+
+CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o: CMakeFiles/HiJson.dir/flags.make
+CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o: ../node/ArrayNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o -c /Users/zhangyuan/Workspace/C/HiJson/node/ArrayNode.cpp
+
+CMakeFiles/HiJson.dir/node/ArrayNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HiJson.dir/node/ArrayNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangyuan/Workspace/C/HiJson/node/ArrayNode.cpp > CMakeFiles/HiJson.dir/node/ArrayNode.cpp.i
+
+CMakeFiles/HiJson.dir/node/ArrayNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HiJson.dir/node/ArrayNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangyuan/Workspace/C/HiJson/node/ArrayNode.cpp -o CMakeFiles/HiJson.dir/node/ArrayNode.cpp.s
+
 # Object files for target HiJson
 HiJson_OBJECTS = \
 "CMakeFiles/HiJson.dir/main.cpp.o" \
 "CMakeFiles/HiJson.dir/Laxer.cpp.o" \
-"CMakeFiles/HiJson.dir/Parser.cpp.o"
+"CMakeFiles/HiJson.dir/Parser.cpp.o" \
+"CMakeFiles/HiJson.dir/node/ValueNode.cpp.o" \
+"CMakeFiles/HiJson.dir/node/TrueNode.cpp.o" \
+"CMakeFiles/HiJson.dir/node/StringNode.cpp.o" \
+"CMakeFiles/HiJson.dir/node/PairNode.cpp.o" \
+"CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o" \
+"CMakeFiles/HiJson.dir/node/NumberNode.cpp.o" \
+"CMakeFiles/HiJson.dir/node/NullNode.cpp.o" \
+"CMakeFiles/HiJson.dir/node/FalseNode.cpp.o" \
+"CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o"
 
 # External object files for target HiJson
 HiJson_EXTERNAL_OBJECTS =
@@ -128,9 +254,18 @@ HiJson_EXTERNAL_OBJECTS =
 HiJson: CMakeFiles/HiJson.dir/main.cpp.o
 HiJson: CMakeFiles/HiJson.dir/Laxer.cpp.o
 HiJson: CMakeFiles/HiJson.dir/Parser.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/ValueNode.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/TrueNode.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/StringNode.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/PairNode.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/ObjectNode.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/NumberNode.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/NullNode.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/FalseNode.cpp.o
+HiJson: CMakeFiles/HiJson.dir/node/ArrayNode.cpp.o
 HiJson: CMakeFiles/HiJson.dir/build.make
 HiJson: CMakeFiles/HiJson.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HiJson"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable HiJson"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HiJson.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -20,25 +20,5 @@ public:
 
 };
 
-std::string ArrayNode::toString() {
-    std::string str;
-    str += "<Array: ";
-    for (auto &element : elements) {
-        str += element->toString();
-    }
-    str += ">";
-    return str;
-}
-
-std::string ArrayNode::description(int level) {
-    std::string desc;
-    desc += ValueNode::description(level, "<Array: [");
-    for (auto &element : elements) {
-        desc += element->description(level + 1);
-    }
-    desc += ValueNode::description(level, ">");
-    return desc;
-}
-
 
 #endif //HIJSON_ARRAYNODE_H

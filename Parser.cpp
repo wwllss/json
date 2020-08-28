@@ -18,13 +18,13 @@ void Parser::consume() {
 }
 
 Token *Parser::match(TokenType tt) {
-    Token *token;
     if (is(tt)) {
-        token = head;
+        auto token = head;
         consume();
         return token;
     }
-    throw std::runtime_error("Not matched Token " + std::to_string(tt));
+    return nullptr;
+//    throw std::runtime_error("Not matched Token " + std::to_string(tt));
 }
 
 bool Parser::is(TokenType tt) const {

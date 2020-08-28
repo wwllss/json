@@ -94,12 +94,12 @@ clean: CMakeFiles/HiJson.dir/clean
 CMakeFiles/HiJson.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HiJson.dir/build.make CMakeFiles/HiJson.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target HiJson"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target HiJson"
 .PHONY : CMakeFiles/HiJson.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HiJson.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/HiJson.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangyuan/Workspace/C/HiJson/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/HiJson.dir/rule

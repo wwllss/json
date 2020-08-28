@@ -14,9 +14,5 @@ class FalseNode : public ValueNode {
 
 };
 
-std::string FalseNode::toString() {
-    return "<False>";
-}
-
 
 #endif //HIJSON_FALSENODE_H

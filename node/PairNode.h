@@ -22,10 +22,4 @@ public:
     std::string toString() override;
 };
 
-PairNode::PairNode(StringNode *key, ValueNode *value) : key(key), value(value) {}
-
-std::string PairNode::toString() {
-    return "<Pair: " + key->toString() + " => " + value->toString() + ">";
-}
-
 #endif //HIJSON_PAIRNODE_H

@@ -13,9 +13,5 @@ class NullNode : public ValueNode {
 
 };
 
-std::string NullNode::toString() {
-    return "<Null>";
-}
-
 
 #endif //HIJSON_NULLNODE_H
