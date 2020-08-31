@@ -158,7 +158,7 @@ std::string Laxer::matchChars() {
 
 std::string Laxer::matchUnicode() {
     std::string str;
-    str.append(match(Laxer::isDigit, 4));
+    str.append(match(isDigit, 4));
     return str;
 }
 
@@ -198,7 +198,7 @@ Token *Laxer::matchNumber() {
 std::string Laxer::matchDigits() {
     std::string str;
     while (isDigit(c)) {
-        str += match(Laxer::isDigit, 1);
+        str += match(isDigit, 1);
     }
     return str;
 }
