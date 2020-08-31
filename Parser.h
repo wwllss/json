@@ -18,11 +18,11 @@
 class Parser {
 
 private:
-    Laxer laxer;
+    Laxer *laxer;
     Token *head = nullptr;
 
 public:
-    explicit Parser(const Laxer &laxer);
+    explicit Parser(Laxer *laxer);
 
     ValueNode *parse();
 

@@ -6,8 +6,6 @@ int main() {
     std::ifstream is;
     is.open("/Users/zhangyuan/Workspace/C/Test1/files/detail.json");
 
-    Laxer laxer(&is);
-
     /*Token *token;
 
     while ((token = laxer.nextToken())->tokenType != TokenType::EOF_CHAR) {
@@ -15,7 +13,7 @@ int main() {
         printf("\n");
     }*/
 
-    Parser parser(laxer);
+    Parser parser(new Laxer(&is));
     ValueNode *root = parser.parse();
     printf("%s", root->description().c_str());
 

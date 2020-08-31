@@ -4,7 +4,7 @@
 
 #include "Parser.h"
 
-Parser::Parser(const Laxer &laxer) : laxer(laxer) {
+Parser::Parser(Laxer *laxer) : laxer(laxer) {
     consume();
 }
 
@@ -14,7 +14,7 @@ ValueNode *Parser::parse() {
 }
 
 void Parser::consume() {
-    head = laxer.nextToken();
+    head = laxer->nextToken();
 }
 
 Token *Parser::match(TokenType tt) {
