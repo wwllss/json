@@ -2,15 +2,15 @@
 // Created by 张远 on 2020/8/27.
 //
 
-#ifndef HIJSON_LAXER_H
-#define HIJSON_LAXER_H
+#ifndef HIJSON_LEXER_H
+#define HIJSON_LEXER_H
 
 
 #include <string>
 #include <fstream>
 #include "Token.h"
 
-class Laxer {
+class Lexer {
 
 private:
     std::istream *is;
@@ -18,7 +18,7 @@ private:
     char c = EOF;
 
 public:
-    explicit Laxer(std::istream *is);
+    explicit Lexer(std::istream *is);
 
     Token* nextToken();
 
@@ -54,4 +54,4 @@ private:
 };
 
 
-#endif //HIJSON_LAXER_H
+#endif //HIJSON_LEXER_H

@@ -3,13 +3,13 @@
 //
 
 #include <iostream>
-#include "Laxer.h"
+#include "Lexer.h"
 
-Laxer::Laxer(std::istream *is) : is(is) {
+Lexer::Lexer(std::istream *is) : is(is) {
     consume();
 }
 
-Token *Laxer::nextToken() {
+Token *Lexer::nextToken() {
     while (c != EOF) {
         switch (c) {
             case ' ':
@@ -58,14 +58,14 @@ Token *Laxer::nextToken() {
     return new Token(TokenType::EOF_CHAR, "<EOF>");
 }
 
-char Laxer::consume() {
+char Lexer::consume() {
     p++;
     char pre = c;
     c = is->get();
     return pre;
 }
 
-char Laxer::match(char x) {
+char Lexer::match(char x) {
     if (x == c) {
         return consume();
     }
@@ -77,14 +77,14 @@ char Laxer::match(char x) {
     throw std::runtime_error(errMsg);
 }
 
-std::string Laxer::match(std::string str) {
+std::string Lexer::match(std::string str) {
     for (std::string::iterator i = str.begin(); i < str.end(); ++i) {
         match(*i);
     }
     return str;
 }
 
-std::string Laxer::match(const std::function<bool(char)> &fn, int count) {
+std::string Lexer::match(const std::function<bool(char)> &fn, int count) {
     char chars[count];
     for (int i = 0; i < count; ++i) {
         if (fn(c)) {
@@ -96,14 +96,14 @@ std::string Laxer::match(const std::function<bool(char)> &fn, int count) {
     return std::string(chars);
 }
 
-Token *Laxer::matchString() {
+Token *Lexer::matchString() {
     match('"');
     std::string chars = matchChars();
     match('"');
     return new Token(TokenType::STRING, chars);
 }
 
-std::string Laxer::matchChars() {
+std::string Lexer::matchChars() {
     std::string str;
     while (c != '"') {
         if (c == '\\') {
@@ -156,21 +156,21 @@ std::string Laxer::matchChars() {
     return str;
 }
 
-std::string Laxer::matchUnicode() {
+std::string Lexer::matchUnicode() {
     std::string str;
     str.append(match(isDigit, 4));
     return str;
 }
 
-Token *Laxer::matchTrue() {
+Token *Lexer::matchTrue() {
     return new Token(TokenType::TRUE, match("true"));
 }
 
-Token *Laxer::matchFalse() {
+Token *Lexer::matchFalse() {
     return new Token(TokenType::FALSE, match("false"));
 }
 
-Token *Laxer::matchNumber() {
+Token *Lexer::matchNumber() {
     std::string str;
     if (c == '-') {
         str += std::string(1, consume());
@@ -195,7 +195,7 @@ Token *Laxer::matchNumber() {
     return new Token(TokenType::NUMBER, str);
 }
 
-std::string Laxer::matchDigits() {
+std::string Lexer::matchDigits() {
     std::string str;
     while (isDigit(c)) {
         str += match(isDigit, 1);
@@ -203,15 +203,15 @@ std::string Laxer::matchDigits() {
     return str;
 }
 
-Token *Laxer::matchNull() {
+Token *Lexer::matchNull() {
     return new Token(TokenType::Null, match("null"));
 }
 
-bool Laxer::isDigit(char x) {
+bool Lexer::isDigit(char x) {
     return x >= '0' && x <= '9';
 }
 
-bool Laxer::isHexDigit(char x) {
+bool Lexer::isHexDigit(char x) {
     return isDigit(x)
            || (x >= 'a' && x <= 'f')
            || (x >= 'A' && x <= 'F');

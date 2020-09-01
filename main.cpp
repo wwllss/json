@@ -13,7 +13,7 @@ int main() {
         printf("\n");
     }*/
 
-    Parser parser(new Laxer(&is));
+    Parser parser(new Lexer(&is));
     ValueNode *root = parser.parse();
     printf("%s", root->description().c_str());
 

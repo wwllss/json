@@ -6,7 +6,7 @@
 #define HIJSON_PARSER_H
 
 
-#include "Laxer.h"
+#include "Lexer.h"
 #include "node/ValueNode.h"
 #include "node/ObjectNode.h"
 #include "node/ArrayNode.h"
@@ -18,11 +18,11 @@
 class Parser {
 
 private:
-    Laxer *laxer;
+    Lexer *laxer;
     Token *head = nullptr;
 
 public:
-    explicit Parser(Laxer *laxer);
+    explicit Parser(Lexer *laxer);
 
     ValueNode *parse();
 

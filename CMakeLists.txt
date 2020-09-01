@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(
         HiJson
         main.cpp
-        Laxer.cpp
-        Laxer.h
+        Lexer.cpp
+        Lexer.h
         Token.h
         TokenType.h
         Parser.cpp

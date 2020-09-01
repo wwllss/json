@@ -4,7 +4,7 @@
 
 #include "Parser.h"
 
-Parser::Parser(Laxer *laxer) : laxer(laxer) {
+Parser::Parser(Lexer *laxer) : laxer(laxer) {
     consume();
 }
 
