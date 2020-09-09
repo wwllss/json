@@ -20,4 +20,4 @@ add_executable(
         node/PairNode.h
         node/ObjectNode.h
         node/ArrayNode.h
-        node/NumberNode.h node/ValueNode.cpp node/TrueNode.cpp node/StringNode.cpp node/PairNode.cpp node/ObjectNode.cpp node/NumberNode.cpp node/NullNode.cpp node/FalseNode.cpp node/ArrayNode.cpp)
+        node/NumberNode.h node/ValueNode.cpp node/TrueNode.cpp node/StringNode.cpp node/PairNode.cpp node/ObjectNode.cpp node/NumberNode.cpp node/NullNode.cpp node/FalseNode.cpp node/ArrayNode.cpp Token.cpp)

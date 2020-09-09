@@ -4,7 +4,7 @@
 int main() {
 
     std::ifstream is;
-    is.open("/Users/zhangyuan/Workspace/C/Test1/files/detail.json");
+    is.open("/Users/zhangyuan/Workspace/C/Test1/files/test.json");
 
     /*Token *token;
 
