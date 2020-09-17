@@ -14,7 +14,6 @@ class Lexer {
 
 private:
     std::istream *is;
-    int p = -1;
     char c = EOF;
 
 public:

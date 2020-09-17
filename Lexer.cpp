@@ -59,7 +59,6 @@ Token *Lexer::nextToken() {
 }
 
 char Lexer::consume() {
-    p++;
     char pre = c;
     c = is->get();
     return pre;
